@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="trab1Estilo.css">
+    <title>Meu Site</title>
+</head>
+<body>
+    <header>
+        <h1>Meu Site Pessoal</h1>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#formacao">Formação</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato" class="active">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Olá, meu nome é João Paulo de Oliveira Melo. Sou um entusiasta da tecnologia. Atualmente cursando Análise e Desenvolvimento de Sistemas, estou empenhado em me formar e criar soluções inovadoras.</p>
+</section>
+        </section>
+        <section id="formacao">
+            <div class="caixa-formacao">
+            <h2>Formação</h2>
+            <p>Atualmente, minha jornada acadêmica está marcada por um constante desejo de aprendizado e crescimento. Possuo o ensino médio completo e estou cursando o curso de Análise e Desenvolvimento de Sistemas pela UNINTER, onde tenho a oportunidade de aprofundar meu conhecimento em programação e desenvolvimento de software.</p>
+            <p>Além disso, busco ampliar meus horizontes e aprimorar minhas habilidades em diversas áreas. Com essa perspectiva em mente, concluí com sucesso um curso de Python, que me proporcionou uma base sólida em programação e resolução de problemas.</p>
+            <p>Mas minha busca por excelência não se limita apenas ao mundo da tecnologia. Reconhecendo a importância da comunicação global no cenário atual, estou dedicando parte do meu tempo ao aprendizado do idioma inglês. A língua inglesa desempenha um papel fundamental na comunicação global, especialmente na área de tecnologia, onde o compartilhamento de conhecimento e colaboração transcendem fronteiras.</p>
+            <p>Minha determinação em aprimorar minhas habilidades linguísticas é uma extensão do meu compromisso com o aprendizado contínuo e a busca de oportunidades que me permitam crescer e contribuir de forma mais significativa no campo do desenvolvimento de software.</p>
+            <p>Com a formação acadêmica em andamento e a paixão pelo aprendizado constante, estou preparado para enfrentar desafios e oportunidades com entusiasmo e determinação.</p>
+            <br><br><br>
+
+            <figure>
+                <img src="imagens/python-essentials-1.1.png" alt="Insignia do curso de Python">
+                <figcaption>Insignia do curso de Python</figcaption>
+            </figure>
+            <div>
+        </section>
+        <section id="portfolio">
+            <h2>Portfólio</h2>
+            <a href="https://github.com/N-CPUninter/FUNDAMENTOS-DA-PROGRAMA-O-WEB/tree/main/Aula%20Pr%C3%A1tica%204
+            ">Veja o projeto</a>
+        </section>
+        <br><br><br><br>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato comigo:</p>
+            <br><br><br>
+            <form method="post" action="enviar-contato.php" class="formulario-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Seu endereço de e-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+    <footer>
+        &copy; 2023 Meu Site Pessoal
+    </footer>
+</body>
+</html>
